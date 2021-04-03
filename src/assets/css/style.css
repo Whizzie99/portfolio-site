@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #2b234a;
+    --white: #fff;
+    --black: #000;
+
+}
+
+/* globals */
+body{
+    height: 100vh;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.hamburger-menu{
+    cursor: pointer;
+}
