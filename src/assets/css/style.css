@@ -46,3 +46,29 @@ body{
 .hamburger-menu{
     cursor: pointer;
 }
+
+/* Nav bar end */
+
+
+/* Home section */
+.home-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* right part */
+.hand-img{
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.hand-img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 900px;
+    height: 900px;
+    transform: translate(-30%);
+}
