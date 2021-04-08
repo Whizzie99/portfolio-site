@@ -4,6 +4,7 @@ import Home from './views/Home';
 
 
 import './assets/css/style.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Home/>
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </div>
     </Router>
