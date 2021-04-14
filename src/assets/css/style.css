@@ -268,7 +268,138 @@ body{
 }
 
 /* projects */
-.projects
+.projects-hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+}
+
+.projects-hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-hero-text h2{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-size: 4em;
+}
+
+.projects-hero-text p{
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+}
+
+
+.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-img img{
+    /* object-fit: cover; */
+    height: 90%;
+    width: 90%;
+}
+
+.projects-list-section{
+    padding: 50px 0;
+}
+
+.project{
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 15px;
+    transition: all .3s ease;
+    margin: 30px 0;
+}
+
+.project:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.project-thumbnail{
+    grid-column: 1/2;
+}
+
+.project-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.project-description{
+    grid-column: 2/4;
+}
+
+.project-title{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+.project-text{
+    font-family: var(--primary-font);
+    font-size: 1.3em;
+}
+
+.project-tools{
+    display: flex;
+}
+
+.tools-header{
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+.tools-header::after{
+    content: ':';
+}
+
+.tools-icons{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3em;
+    color: var(--primary-color);
+}
+
+.tools-icons .tool{
+    margin: 0 6px;
+}
+
+.project-preview{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.preview-navs a{
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
+.view-live{
+    margin-left: 6px;
+}
 
 
 
