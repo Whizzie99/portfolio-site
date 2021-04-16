@@ -335,7 +335,7 @@ body{
 .project-title{
     font-family: var(--secondary-font);
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.4em;
     text-transform: capitalize;
     color: var(--primary-color);
 }
@@ -508,6 +508,10 @@ footer p a{
 
     .project-description{
         grid-column: 2/4;
+    }
+
+    .project-title{
+        font-size: 1.8em;
     }
 
     .see-more-area{
