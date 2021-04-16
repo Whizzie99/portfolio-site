@@ -18,6 +18,14 @@ body{
     height: 100vh;
 }
 
+#root{
+    height: 100vh;
+}
+
+.app{
+    height: 100vh;
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -125,9 +133,10 @@ body{
 }
 
 /* Home section */
-.home-content, .about-content, .contact-content{
-    /* height: 100vh; */
-}
+/* .home-content, .about-content, .contact-content{
+    height: 100vh;
+} */
+
 
 /* Left section */
 .left-section{
@@ -433,7 +442,7 @@ footer p a{
 }
 
 /* Media queries */
-@media(min-width: 1200px){
+@media(min-width: 991px){
     /* Home section */
     .home-content, .about-content, .contact-content{
     display: grid;
