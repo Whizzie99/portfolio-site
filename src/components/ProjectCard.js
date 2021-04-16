@@ -21,7 +21,7 @@ const ProjectCard = () => {
                     </div>
                     <div className="project-description">
                         <h5 className="project-title">My portfolio site</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <p className="project-text">Portfolio site to make basic information about me accessible to people and showcase my projects.</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">
@@ -65,7 +65,7 @@ const ProjectCard = () => {
                     </div>
                     <div className="project-description">
                         <h5 className="project-title">Aquila Aveionen</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <p className="project-text">A simple landing page that fetches data for an api end point. This was an internship interview task.</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">
@@ -108,7 +108,7 @@ const ProjectCard = () => {
                     </div>
                     <div className="project-description">
                         <h5 className="project-title">Reaction timer game</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <p className="project-text">A web game that rates you based on how fast you respond to the click event.</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">
@@ -151,7 +151,7 @@ const ProjectCard = () => {
                     </div>
                     <div className="project-description">
                         <h5 className="project-title">One Burner</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <p className="project-text">A site for a fictional company that focuses on team collaboration</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">
@@ -194,7 +194,7 @@ const ProjectCard = () => {
                     </div>
                     <div className="project-description">
                         <h5 className="project-title">Registration Form</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <p className="project-text">Form that can be used for various online contest registrations</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">
@@ -233,8 +233,8 @@ const ProjectCard = () => {
                         <img src={cardThumb} alt="thumbnail"/>
                     </div>
                     <div className="project-description">
-                        <h5 className="project-title">Registration Form</h5>
-                        <p className="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque asperiores nihil. Repudiandae, fuga quod.</p>
+                        <h5 className="project-title">Display Card</h5>
+                        <p className="project-text">Card that shows basic information of a person participating in an online contest and their social media votes.</p>
                         <div className="project-tools">
                             <div className="tools-header">Tools</div>
                             <div className="tools-icons">

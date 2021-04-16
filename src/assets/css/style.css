@@ -15,15 +15,7 @@
 
 /* globals */
 body{
-    height: 100vh;
-}
-
-#root{
-    height: 100vh;
-}
-
-.app{
-    height: 100vh;
+    height: 100%;
 }
 
 .container{
@@ -442,7 +434,14 @@ footer p a{
 }
 
 /* Media queries */
-@media(min-width: 991px){
+
+@media(max-width: 899px){
+    .home-content{
+        margin: 23% 0;
+    }
+}
+
+@media(min-width: 900px){
     /* Home section */
     .home-content, .about-content, .contact-content{
     display: grid;
