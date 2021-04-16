@@ -10,12 +10,12 @@ const Home = () => {
                     <div className="container">
                         <h2>Hi,</h2>
                         <h4>Welcome to my space!</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus vitae doloremque odit repudiandae veritatis aspernatur! Corporis eos eveniet rerum.
+                        <p>I'm wisdom obioma, a frontend developer.I build accessible, optimised and responsive websites and web apps.
                         </p>
                         <div className="social-links">
                             <Socials/>
                             <button className="tour-btn">
-                                <Link to="#">Let's tour<i className="fas fa-arrow-right"></i></Link>
+                                <Link to="/about">Let's tour<i className="fas fa-arrow-right"></i></Link>
                             </button>
                         </div>
                     </div>

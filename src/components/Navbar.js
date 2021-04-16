@@ -53,7 +53,7 @@ const Navbar = () => {
                                 <Link onClick={hideMenu} to="/projects">Projects</Link>
                             </li>
                             <li className="menu-item">
-                                <Link to="#">Contact</Link>
+                                <Link onClick={hideMenu} to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

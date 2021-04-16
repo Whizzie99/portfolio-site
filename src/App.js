@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 
 import './assets/css/style.css';
 import Projects from './views/Projects';
+import Contact from './views/Contact';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
           </Route>
         </Switch>
         <Footer/>

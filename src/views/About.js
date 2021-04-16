@@ -10,13 +10,17 @@ const About = () => {
                 <div className="left-section-content">
                     <div className="container">
                         <h2>About Me</h2>
-                        {/* <h4>Welcome to my space!</h4> */}
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam delectus vitae doloremque odit repudiandae veritatis aspernatur! Corporis eos eveniet rerum.
+                        <p>I transform web designs into optimized, responsive
+                            and accessible websites. I love learning about technologies
+                            and practices that would help me build projects efficiently,
+                            that also aid my career development.
+                            I listen to music a lot(even when working...lol)it helps ease
+                            the mind. I play video games or soccer in my free time. Technologies I work with include HTML, CSS, Javascript, React, Bootstrap, Materialize css.
                         </p>
                         <div className="social-links">
                             <Socials/>
                             <button className="tour-btn">
-                                <Link to="#">Continue<i className="fas fa-arrow-right"></i></Link>
+                                <Link to="/projects">Continue<i className="fas fa-arrow-right"></i></Link>
                             </button>
                         </div>
                     </div>
