@@ -435,19 +435,37 @@ footer p a{
 
 /* Media queries */
 
-@media(max-width: 899px){
+
+@media screen and (max-width: 899px){
     .home-content{
         margin: 23% 0;
     }
 }
 
-@media(min-width: 900px){
+@media screen and (min-width: 900px){
     /* Home section */
     .home-content, .about-content, .contact-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
     }
+
+    .home-content{
+        margin: 5% 0;
+    }
+
+    .about-content{
+        margin: 4% 0;
+    }
+
+    .projects-content{
+        margin: 2% 0;
+    }
+
+    .contact-content{
+        margin: 5% 0;
+    }
+
 
     /* left section */
     .left-section-content h2{
@@ -524,5 +542,11 @@ footer p a{
 
     .see-more-area{
     width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .home-content, .about-content, .projects-content, .contact-content{
+        margin: 0;
     }
 }
