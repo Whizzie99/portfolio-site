@@ -45,12 +45,12 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                            <Link to={{ pathname: "https://github.com/Whizzie99/portfolio-site" }} target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                            <Link to={{ pathname: "https://wisdomobioma.netlify.app" }} target="_blank">
                                 <i className="fas fa-globe"></i>
                             </Link>
                         </span>
@@ -131,12 +131,12 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                            <Link to={{ pathname: "https://github.com/Whizzie99/Reaction-timer-game" }} target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                            <Link to={{ pathname: "https://clickfast.netlify.app" }} target="_blank">
                                 <i className="fas fa-globe"></i>
                             </Link>
                         </span>
@@ -174,12 +174,12 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                            <Link to={{ pathname: "https://github.com/Whizzie99/one-burner" }} target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                            <Link to={{ pathname: "https://burner-testing.netlify.app/" }} target="_blank">
                                 <i className="fas fa-globe"></i>
                             </Link>
                         </span>
@@ -214,12 +214,12 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                            <Link to={{ pathname: "https://contestform.netlify.app/" }} target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                            <Link to={{ pathname: "https://github.com/Whizzie99/online-contest-reg-form" }} target="_blank">
                                 <i className="fas fa-globe"></i>
                             </Link>
                         </span>
@@ -254,12 +254,12 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                            <Link to={{ pathname: "https://github.com/Whizzie99/card-and-form" }} target="_blank">
                                 <i className="fab fa-github"></i>
                             </Link>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                            <Link to={{ pathname: "https://justcard.netlify.app/" }} target="_blank">
                                 <i className="fas fa-globe"></i>
                             </Link>
                         </span>

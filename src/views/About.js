@@ -16,6 +16,7 @@ const About = () => {
                             that also aid my career development.
                             I listen to music a lot(even when working...lol)it helps ease
                             the mind. I play video games or soccer in my free time. Technologies I work with include HTML, CSS, Javascript, React, Bootstrap, Materialize css.
+                            My resume is available <a className="send-email-btn" href="https://drive.google.com/file/d/1abEB3c4AWKbHGzrZ6EO48Q0J3IiEtdoW/view?usp=sharing">Here</a>
                         </p>
                         <div className="social-links">
                             <Socials/>
