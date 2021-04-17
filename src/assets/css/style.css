@@ -440,6 +440,10 @@ footer p a{
     .home-content{
         margin: 30% 0;
     }
+
+    .about-content{
+        margin: 10% 0;
+    }
 }
 
 @media screen and (min-width: 900px){
