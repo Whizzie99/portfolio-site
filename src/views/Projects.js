@@ -46,7 +46,7 @@ const Projects = () => {
             <div className="container">
                 <div className="projects-hero">
                     <div className="projects-hero-text">
-                        <h2 ref={ref1}>Projects</h2>
+                        <h2 ref={ref1}>Projects <span className="emoji">🚀</span></h2>
                         <p ref={ref2}>I enjoying exploring and learning new things to help me a become better developer. Here are some of the projects I've built on using frontend technologies I work with.</p>
                     </div>
                     <div className="hero-img" ref={ref3}>

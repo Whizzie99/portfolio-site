@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">
-                        <h2 ref={ref1}>Get in touch</h2>
+                        <h2 ref={ref1}>Get in touch <span className="emoji">🤙🏾</span></h2>
                         <p ref={ref2}>Interested in working with me or have a project in mind? Feel free to send me an <a className="send-email-btn" href="mailto:wisdomobiomadev@gmail.com" target="_blank" rel="noreferrer">Email</a>
                         </p>
                         <div className="social-links">

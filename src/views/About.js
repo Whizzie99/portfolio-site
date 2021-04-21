@@ -45,7 +45,7 @@ const About = () => {
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">
-                        <h2 ref={ref1}>About Me</h2>
+                        <h2 ref={ref1}>About Me <span className="emoji">✌🏾</span></h2>
                         <p ref={ref2}>I transform web designs into optimized, responsive
                             and accessible websites. I love learning about technologies
                             and practices that would help me build projects efficiently,

@@ -448,6 +448,11 @@ footer p a{
 }
 
 @media screen and (min-width: 900px){
+
+    .emoji{
+        display: none;
+    }
+
     /* Home section */
     .home-content, .about-content, .contact-content{
     display: grid;
