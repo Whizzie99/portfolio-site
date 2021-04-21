@@ -445,6 +445,10 @@ footer p a{
     .about-content{
         margin: 8% 0;
     }
+
+    .contact-content{
+        margin: 35% 0;
+    }
 }
 
 @media screen and (min-width: 900px){
