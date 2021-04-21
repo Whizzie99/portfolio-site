@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -60,14 +59,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/portfolio-site" }} target="_blank">
+                            <a href="https://github.com/Whizzie99/portfolio-site" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>
-                            </Link>
+                            </a>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://wisdomobioma.netlify.app" }} target="_blank">
+                            <a href="https://wisdomobioma.netlify.app" target="_blank" rel="noreferrer">
                                 <i className="fas fa-globe"></i>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -109,14 +108,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                 <div className="preview-navs">
                     <span className="code-base">
-                        <Link to={{ pathname: "https://github.com/Whizzie99/aquila-aveion" }} target="_blank">
+                        <a href="https://github.com/Whizzie99/aquila-aveion" target="_blank" rel="noreferrer">
                             <i className="fab fa-github"></i>
-                        </Link>
+                        </a>
                     </span>
                     <span className="view-live">
-                        <Link to={{ pathname: "https://aquila-landing.netlify.app" }} target="_blank">
+                        <a href="https://aquila-landing.netlify.app" target="_blank" rel="noreferrer">
                             <i className="fas fa-globe"></i>
-                        </Link>
+                        </a>
                     </span>
                 </div>
             </div>
@@ -158,14 +157,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/Reaction-timer-game" }} target="_blank">
+                            <a href="https://github.com/Whizzie99/Reaction-timer-game" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>
-                            </Link>
+                            </a>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://clickfast.netlify.app" }} target="_blank">
+                            <a href="https://clickfast.netlify.app" target="_blank" rel="noreferrer">
                                 <i className="fas fa-globe"></i>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -207,14 +206,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/one-burner" }} target="_blank">
+                            <a href="https://github.com/Whizzie99/one-burner" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>
-                            </Link>
+                            </a>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://burner-testing.netlify.app/" }} target="_blank">
+                            <a href="https://burner-testing.netlify.app/" target="_blank" rel="noreferrer">
                                 <i className="fas fa-globe"></i>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -253,14 +252,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://contestform.netlify.app/" }} target="_blank">
+                            <a href="https://contestform.netlify.app/" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>
-                            </Link>
+                            </a>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/online-contest-reg-form" }} target="_blank">
+                            <a href="https://github.com/Whizzie99/online-contest-reg-form" target="_blank" rel="noreferrer">
                                 <i className="fas fa-globe"></i>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -299,14 +298,14 @@ const ProjectCard = () => {
                 <div className="project-preview">
                     <div className="preview-navs">
                         <span className="code-base">
-                            <Link to={{ pathname: "https://github.com/Whizzie99/card-and-form" }} target="_blank">
+                            <a href="https://github.com/Whizzie99/card-and-form" target="_blank" rel="noreferrer">
                                 <i className="fab fa-github"></i>
-                            </Link>
+                            </a>
                         </span>
                         <span className="view-live">
-                            <Link to={{ pathname: "https://justcard.netlify.app/" }} target="_blank">
+                            <a href="https://justcard.netlify.app/" target="_blank" rel="noreferrer">
                                 <i className="fas fa-globe"></i>
-                            </Link>
+                            </a>
                         </span>
                     </div>
                 </div>
@@ -314,7 +313,7 @@ const ProjectCard = () => {
 
             <div className="see-more-area">
                 <button className="tour-btn">
-                    <Link to={{ pathname: "https://github.com/Whizzie99" }} >See More?</Link>
+                    <a href="https://github.com/Whizzie99" target="_blank" rel="noreferrer">See More?</a>
                 </button>
             </div>
 

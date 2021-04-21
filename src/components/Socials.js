@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
 
@@ -33,19 +32,19 @@ const Socials = () => {
     return ( 
         <ul>
             <li className="link-item" ref={ref1}>
-                <Link to={{ pathname: "https://github.com/whizzie99" }} target="_blank">
+                <a href="https://github.com/whizzie99" target="_blank" rel="noreferrer">
                     <i className="fab fa-github"></i>
-                </Link>
+                </a>
             </li>
             <li className="link-item" ref={ref2}>
-                <Link to={{ pathname: "https://www.linkedin.com/in/wisdom-obioma-244191208/" }} target="_blank">
+                <a href="https://www.linkedin.com/in/wisdom-obioma-244191208/" target="_blank" rel="noreferrer">
                     <i className="fab fa-linkedin"></i>
-                </Link>
+                </a>
             </li>
             <li className="link-item" ref={ref3}>
-                <Link to={{ pathname: "https://twitter.com/_whizzie" }} target="_blank">
+                <a href="https://twitter.com/_whizzie" target="_blank" rel="noreferrer">
                     <i className="fab fa-twitter"></i>
-                </Link>
+                </a>
             </li>
         </ul>
     );
