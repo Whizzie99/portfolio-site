@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 //import images
@@ -8,13 +10,26 @@ import reactionTImerThumb from '../assets/imgs/project_thumbnails/click_fast.png
 import oneBurnerThumb from '../assets/imgs/project_thumbnails/one_burner.png';
 import regFormThumb from '../assets/imgs/project_thumbnails/reg_form.png';
 import cardThumb from '../assets/imgs/project_thumbnails/card.png';
+import { useEffect } from 'react';
 
 
 const ProjectCard = () => {
+
+    useEffect(() => {
+        AOS.init();
+
+    })
+
     return (
         <>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={porfolioThumb} alt="thumbnail"/>
@@ -58,7 +73,13 @@ const ProjectCard = () => {
                 </div>
             </div>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={aquilaThumb} alt="thumbnail"/>
@@ -101,7 +122,13 @@ const ProjectCard = () => {
             </div>
             </div>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={reactionTImerThumb} alt="thumbnail"/>
@@ -144,7 +171,13 @@ const ProjectCard = () => {
                 </div>
             </div>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={oneBurnerThumb} alt="thumbnail"/>
@@ -187,7 +220,13 @@ const ProjectCard = () => {
                 </div>
             </div>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={regFormThumb} alt="thumbnail"/>
@@ -227,7 +266,13 @@ const ProjectCard = () => {
                 </div>
             </div>
 
-            <div className="project">
+            <div 
+            className="project"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="500"
+            data-aos-easing="ease"
+            >
                 <div className="project-card">
                     <div className="project-thumbnail">
                         <img src={cardThumb} alt="thumbnail"/>

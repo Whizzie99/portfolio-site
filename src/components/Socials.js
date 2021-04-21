@@ -28,7 +28,7 @@ const Socials = () => {
 
 
 
-    }, [ref1, ref2, ref3]);
+    }, []);
 
     return ( 
         <ul>

@@ -68,6 +68,7 @@ body{
     width: 100%;
     background-color: rgba(43, 35, 74, 0.9);
     transition: all .5s ease;
+    z-index: 100;
 }
 
 .close-section{

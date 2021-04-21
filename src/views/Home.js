@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom';
 import { gsap } from 'gsap';
+import { useEffect, useRef } from 'react';
+import Tourbutton from '../components/Tourbutton';
 
 import hello from '../assets/imgs/hello_hand.png';
 import Socials from '../components/Socials';
-import { useEffect, useRef } from 'react';
+
 
 const Home = () => {
 
@@ -19,14 +20,25 @@ const Home = () => {
         const el3 = homeLine3.current;
         const handImg = handRef.current;
 
-        gsap.from([el1, el2, el3], 1, {
+        gsap.from(el1, 1, {
+            delay: 1,
+            ease: "Elastic.easeOut",
+            opacity: 0,
+            x: -20
+        });
+
+        gsap.from(el2, 1.3, {
+            delay: 1.3,
+            ease: "power3.out",
+            x: -20,
+            opacity: 0,
+        });
+
+        gsap.from(el3, 1.5, {
             delay: 1,
             ease: "power3.out",
             x: -20,
             opacity: 0,
-            stagger: {
-                amount: 0.18
-            }
         });
 
         gsap.from(handImg, 1.5, {
@@ -35,7 +47,7 @@ const Home = () => {
             y: 50,
             opacity: 0
         });
-    }, [homeLine1, homeLine2, homeLine3, handRef]);
+    }, []);
 
 
     return (
@@ -49,9 +61,7 @@ const Home = () => {
                         </p>
                         <div className="social-links">
                             <Socials/>
-                            <button className="tour-btn">
-                                <Link to="/about">Let's tour<i className="fas fa-arrow-right"></i></Link>
-                            </button>
+                            <Tourbutton path="/about" text="Let's Tour"/>
                         </div>
                     </div>
                 </div>
@@ -64,5 +74,5 @@ const Home = () => {
         </section>
     );
 }
- 
+
 export default Home;

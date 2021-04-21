@@ -1,16 +1,52 @@
-import { Link } from 'react-router-dom';
 import Socials from '../components/Socials';
+import Tourbutton from '../components/Tourbutton';
+import { gsap } from 'gsap';
 
 import victoryHand from '../assets/imgs/victory_hand.png';
+import { useEffect, useRef } from 'react';
 
 const About = () => {
+
+    const ref1 = useRef(null);
+    const ref2 = useRef(null);
+    const ref3 = useRef(null);
+
+    useEffect(() => {
+
+        const element1 = ref1.current;
+        const element2 = ref2.current;
+        const element3 = ref3.current;
+
+        gsap.from(element1, 1, {
+            delay: 1,
+            ease: "Elastic.easeOut",
+            opacity: 0,
+            x: -20
+        });
+
+        gsap.from(element2, 1.5, {
+            delay: 1.5,
+            ease: "power3.out",
+            x: -20,
+            opacity: 0,
+        });
+
+        gsap.from(element3, 1.5, {
+            delay: 1.5,
+            ease: "Bounce.easeOut",
+            y: 50,
+            opacity: 0
+        });
+
+    }, []);
+
     return (
         <section className="about-content">
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">
-                        <h2>About Me</h2>
-                        <p>I transform web designs into optimized, responsive
+                        <h2 ref={ref1}>About Me</h2>
+                        <p ref={ref2}>I transform web designs into optimized, responsive
                             and accessible websites. I love learning about technologies
                             and practices that would help me build projects efficiently,
                             that also aid my career development.
@@ -20,15 +56,13 @@ const About = () => {
                         </p>
                         <div className="social-links">
                             <Socials/>
-                            <button className="tour-btn">
-                                <Link to="/projects">Continue<i className="fas fa-arrow-right"></i></Link>
-                            </button>
+                            <Tourbutton path="/projects" text="continue"/>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="right-section">
-                <div className="hand-img">
+                <div className="hand-img" ref={ref3}>
                     <img src={victoryHand} alt="hello"/>
                 </div>
             </div>
