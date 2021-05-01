@@ -57,7 +57,7 @@ const Home = () => {
                     <div className="container">
                         <h2 ref={homeLine1}>Hi,<span className="emoji hi-emoji">🖐🏾</span></h2>
                         <h4 ref={homeLine2}>Welcome to my space!</h4>
-                        <p ref={homeLine3}>I'm wisdom obioma, a frontend developer.I build accessible, optimised and responsive websites and web apps.
+                        <p ref={homeLine3}>I'm wisdom obioma, a frontend developer.I build accessible, optimised and responsive web applications.
                         </p>
                         <div className="social-links">
                             <Socials/>
