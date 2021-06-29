@@ -1,5 +1,6 @@
 import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 import Tourbutton from '../components/Tourbutton';
 
 import hello from '../assets/imgs/hello_hand.png';
@@ -52,6 +53,9 @@ const Home = () => {
 
     return (
         <section className="home-content">
+            <Helmet>
+                <title>Wisdom Obioma | Home</title>
+            </Helmet>
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">

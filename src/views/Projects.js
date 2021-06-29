@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import pluto from '../assets/imgs/pluto.png';
 import Tourbutton from '../components/Tourbutton';
 import { useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -43,6 +44,9 @@ const Projects = () => {
 
     return (
         <section className="projects-content">
+            <Helmet>
+                <title>Wisdom Obioma | Projects</title>
+            </Helmet>
             <div className="container">
                 <div className="projects-hero">
                     <div className="projects-hero-text">

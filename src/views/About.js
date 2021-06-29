@@ -1,6 +1,7 @@
 import Socials from '../components/Socials';
 import Tourbutton from '../components/Tourbutton';
 import { gsap } from 'gsap';
+import { Helmet } from 'react-helmet';
 
 import victoryHand from '../assets/imgs/victory_hand.png';
 import { useEffect, useRef } from 'react';
@@ -42,6 +43,9 @@ const About = () => {
 
     return (
         <section className="about-content">
+            <Helmet>
+                <title>Wisdom Obioma | About</title>
+            </Helmet>
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">

@@ -2,6 +2,7 @@ import { gsap } from 'gsap';
 import Socials from '../components/Socials';
 import handWithPhone from '../assets/imgs/hand_with_phone.png';
 import { useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet';
 
 
 const Contact = () => {
@@ -40,6 +41,9 @@ const Contact = () => {
 
     return (
         <section className="contact-content">
+            <Helmet>
+                <title>Wisdom Obioma | Contact</title>
+            </Helmet>
             <div className="left-section">
                 <div className="left-section-content">
                     <div className="container">
