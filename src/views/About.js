@@ -50,13 +50,9 @@ const About = () => {
                 <div className="left-section-content">
                     <div className="container">
                         <h2 ref={ref1}>About Me <span className="emoji">✌🏾</span></h2>
-                        <p ref={ref2}>I transform web designs into optimized, responsive
-                            and accessible websites. I love learning about technologies
-                            and practices that would help me build projects efficiently,
-                            that also aid my career development.
-                            I listen to music a lot(even when working...lol)it helps ease
-                            the mind. I play video games or soccer in my free time. Technologies I work with include HTML, CSS, Javascript, React, Bootstrap, Materialize css.
-                            My resume is available <a className="send-email-btn" href="https://drive.google.com/file/d/1abEB3c4AWKbHGzrZ6EO48Q0J3IiEtdoW/view?usp=sharing" target="_blank" rel="noreferrer">Here</a>
+                        <p ref={ref2}>Yeah!😎I'm frontend developer with over 2 years of experience working with frontend web technologies, building responsive, optimized and accessible interfaces that give users an amazing experience.I listen to music a lot(even when working😅 )it helps ease the mind. I play video games or soccer in my free time.
+                        I'm currently searching for my first role, feel free to shoot me an email if you have one.
+                        Technologies I work with include HTML, CSS, Javascript, React, Bootstrap, Materialize css, css-in-js. My resume is available <a className="send-email-btn" href="https://drive.google.com/file/d/1i1rOeVYB9G48ItKpenhgMRiHL3DCPYqC/view?usp=sharing" target="_blank" rel="noreferrer">Here</a>
                         </p>
                         <div className="social-links">
                             <Socials/>
