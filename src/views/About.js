@@ -60,7 +60,7 @@ const About = () => {
 							resume is available{' '}
 							<a
 								className="send-email-btn"
-								href="https://drive.google.com/file/d/1i1rOeVYB9G48ItKpenhgMRiHL3DCPYqC/view?usp=sharing"
+								href="https://drive.google.com/file/d/1yIJ8KBlk-zG8U_ejN2dXW8pHOFKhUUqH/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>
