@@ -9,13 +9,13 @@
 	--primary-color: #2b234a;
 	--white: #fff;
 	--black: #000;
-	--primary-font: "Comic Neue", cursive;
-	--secondary-font: "Balsamiq Sans", cursive;
+	--primary-font: 'Comic Neue', cursive;
+	--secondary-font: 'Balsamiq Sans', cursive;
 }
 
 /* globals */
 body {
-	height: 100%;
+	height: fit-content;
 }
 
 .container {
@@ -355,7 +355,7 @@ body {
 }
 
 .tools-header::after {
-	content: ":";
+	content: ':';
 }
 
 .tools-icons {
