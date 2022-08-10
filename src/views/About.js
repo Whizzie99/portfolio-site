@@ -50,7 +50,7 @@ const About = () => {
 							About Me <span className="emoji">✌🏾</span>
 						</h2>
 						<p ref={ref2}>
-							Yeah!😎I'm frontend developer with over 2 years of experience
+							Yeah!😎I'm frontend developer with over 3 years of experience
 							working with frontend web technologies, building responsive,
 							optimized and accessible interfaces that give users an amazing
 							experience.I listen to music a lot(even when working😅 )it helps
