@@ -56,11 +56,11 @@ const About = () => {
 							experience.I listen to music a lot(even when working😅 )it helps
 							ease the mind. I play video games or soccer in my free time.
 							Technologies I work with include HTML, CSS, Javascript, React,
-							Bootstrap, Materialize css, css-in-js, strapi CMS, nodeJs. My
-							resume is available{' '}
+							Typescript, Bootstrap, Materialize css, css-in-js(syled
+							components), strapi CMS. My resume is available{' '}
 							<a
 								className="send-email-btn"
-								href="https://drive.google.com/file/d/1OTCmoEcGL2wIPfPfZaOIk6fnuZ2COxxS/view?usp=sharing"
+								href="https://drive.google.com/file/d/1ZRwIIFrz6uxoSYAPoiFOW9vS06yhKqzp/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>

@@ -5,6 +5,7 @@ import june from '../assets/imgs/project_thumbnails/june.png';
 import bioju from '../assets/imgs/project_thumbnails/bioju.png';
 import axgen from '../assets/imgs/project_thumbnails/axgen-shot.png';
 import reasons22 from '../assets/imgs/project_thumbnails/22-reasons.png';
+import boredBuddha from '../assets/imgs/project_thumbnails/bored-buddha-shot.png';
 
 export const data = [
 	{
@@ -17,7 +18,15 @@ export const data = [
 		preview: 'https://wisdomobioma.netlify.app',
 	},
 	{
-		name: 'axgen site',
+		name: 'bored buddha NFT website',
+		description: 'a website built for bored buddha NFT.',
+		thumbnail: boredBuddha,
+		tools: ['fa-html5', 'fa-css3-alt', 'fa-js-square', 'fa-react'],
+		github: 'https://github.com/Whizzie99/bored-buddha',
+		preview: 'https://bored-buddha-dev.netlify.app/',
+	},
+	{
+		name: 'axgen NFT website',
 		description: 'webiste for axgen nft',
 		thumbnail: axgen,
 		tools: ['fa-html5', 'fa-css3-alt', 'fa-js-square', 'fa-react'],
