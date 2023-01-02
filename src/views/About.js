@@ -56,7 +56,7 @@ const About = () => {
 							experience.I listen to music a lot(even when working😅 )it helps
 							ease the mind. I play video games or soccer in my free time.
 							Technologies I work with include HTML, CSS, Javascript, React,
-							Typescript, Bootstrap, Materialize css, css-in-js(syled
+							Typescript, Bootstrap, Materialize css, css-in-js(styled
 							components), strapi CMS. My resume is available{' '}
 							<a
 								className="send-email-btn"
