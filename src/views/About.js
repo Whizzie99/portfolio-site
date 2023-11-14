@@ -10,11 +10,15 @@ const About = () => {
 	const ref1 = useRef(null);
 	const ref2 = useRef(null);
 	const ref3 = useRef(null);
+	const ref4 = useRef(null);
+	const ref5 = useRef(null);
 
 	useEffect(() => {
 		const element1 = ref1.current;
 		const element2 = ref2.current;
 		const element3 = ref3.current;
+		const element4 = ref4.current;
+		const element5 = ref5.current;
 
 		gsap.from(element1, 1, {
 			delay: 1,
@@ -36,6 +40,20 @@ const About = () => {
 			y: 50,
 			opacity: 0,
 		});
+
+		gsap.from(element4, 1.5, {
+			delay: 1.5,
+			ease: 'power3.out',
+			x: -20,
+			opacity: 0,
+		});
+
+		gsap.from(element5, 1.5, {
+			delay: 1.5,
+			ease: 'power3.out',
+			x: -20,
+			opacity: 0,
+		});
 	}, []);
 
 	return (
@@ -49,24 +67,31 @@ const About = () => {
 						<h2 ref={ref1}>
 							About Me <span className="emoji">✌🏾</span>
 						</h2>
-						<p ref={ref2}>
-							Yeah!😎I'm frontend developer with over 3 years of experience
-							working with frontend web technologies, building responsive,
-							optimized and accessible interfaces that give users an amazing
-							experience.I listen to music a lot(even when working😅 )it helps
-							ease the mind. I play video games or soccer in my free time.
-							Technologies I work with include HTML, CSS, Javascript, React,
-							Typescript, Bootstrap, Materialize css, css-in-js(styled
-							components), strapi CMS. My resume is available{' '}
+						<p ref={ref2} className="about-p">
+							I'm passionate about crafting better user journeys on the web.
+							Always eager to learn and open to new tech, I believe teamwork is
+							key in our ever-changing field. Off-duty, you'll find me playing
+							soccer, video games, listening to music, and reading tech blogs.
+							Every day, my goal is simple yet passionate: get better at what I
+							love by learning and practicing.
+						</p>
+						<p ref={ref4} className="about-p">
+							Technologies and tools I work with include React, Javascript,
+							Typescript, NextJs, Webflow, Strapi CMS, Contentful CMS and Sanity
+							CMS.
+						</p>
+						<p ref={ref5} className="about-p">
+							You can find my resume{' '}
 							<a
 								className="send-email-btn"
-								href="https://drive.google.com/file/d/1ZRwIIFrz6uxoSYAPoiFOW9vS06yhKqzp/view?usp=sharing"
+								href="https://drive.google.com/file/d/14VTd7NUAnhWmsCHE6VDw2hWHMGXezUCM/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>
-								Here
+								Here.
 							</a>
 						</p>
+
 						<div className="social-links">
 							<Socials />
 							<Tourbutton path="/projects" text="continue" />
