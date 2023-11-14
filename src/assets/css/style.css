@@ -252,6 +252,10 @@ body {
 	margin-left: 10%;
 }
 
+.about-p {
+	margin-top: 1em;
+}
+
 /* projects */
 .projects-hero {
 	width: 100%;
@@ -344,6 +348,7 @@ body {
 
 .project-tools {
 	display: flex;
+	margin-top: 0.5em;
 }
 
 .tools-header {
@@ -367,7 +372,10 @@ body {
 }
 
 .tools-icons .tool {
-	margin: 0 6px;
+	margin: 0 3px;
+	font-size: 0.8em;
+	font-family: var(--primary-font);
+	text-transform: capitalize;
 }
 
 .project-preview {

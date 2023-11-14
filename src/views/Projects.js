@@ -49,9 +49,8 @@ const Projects = () => {
 							Projects <span className="emoji">🚀</span>
 						</h2>
 						<p ref={ref2}>
-							I enjoy exploring and learning new things to help me become a
-							better developer. Here are some of the projects I've built on
-							using technologies I work with.
+							Explore the websites I've built – where I turn ideas into digital
+							experiences, blending code with creativity.
 						</p>
 					</div>
 					<div className="hero-img" ref={ref3}>
