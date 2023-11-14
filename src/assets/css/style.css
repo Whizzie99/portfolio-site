@@ -543,13 +543,13 @@ footer p a {
 		grid-gap: 10px;
 	}
 
-	.project-thumbnail {
-		/* grid-column: 1/2; */
-	}
+	/* .project-thumbnail {
+		grid-column: 1/2;
+	} */
 
-	.project-description {
-		/* grid-column: 2/4; */
-	}
+	/* .project-description {
+		grid-column: 2/4;
+	} */
 
 	.project-title {
 		font-size: 1.8em;
