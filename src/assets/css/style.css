@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -369,6 +369,7 @@ body {
 	width: 100%;
 	font-size: 1.3em;
 	color: var(--primary-color);
+	flex-wrap: wrap;
 }
 
 .tools-icons .tool {
@@ -538,16 +539,16 @@ footer p a {
 	}
 
 	.project-card {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: 1fr;
 		grid-gap: 10px;
 	}
 
 	.project-thumbnail {
-		grid-column: 1/2;
+		/* grid-column: 1/2; */
 	}
 
 	.project-description {
-		grid-column: 2/4;
+		/* grid-column: 2/4; */
 	}
 
 	.project-title {
@@ -556,6 +557,30 @@ footer p a {
 
 	.see-more-area {
 		width: 60%;
+	}
+}
+
+@media screen and (max-width: 989px) {
+	.project-thumbnail {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	.container {
+		width: 80%;
+	}
+
+	.project-card {
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.project-thumbnail {
+		grid-column: 1/2;
+	}
+
+	.project-description {
+		grid-column: 2/4;
 	}
 }
 
