@@ -1,10 +1,10 @@
-import { useEffect, useRef } from 'react';
-import Socials from '../components/Socials';
-import Tourbutton from '../components/Tourbutton';
-import { gsap } from 'gsap';
-import { Helmet } from 'react-helmet';
+import { useEffect, useRef } from "react";
+import Socials from "../components/Socials";
+import Tourbutton from "../components/Tourbutton";
+import { gsap } from "gsap";
+import { Helmet } from "react-helmet";
 
-import victoryHand from '../assets/imgs/victory_hand.png';
+import victoryHand from "../assets/imgs/victory_hand.png";
 
 const About = () => {
 	const ref1 = useRef(null);
@@ -22,35 +22,35 @@ const About = () => {
 
 		gsap.from(element1, 1, {
 			delay: 1,
-			ease: 'Elastic.easeOut',
+			ease: "Elastic.easeOut",
 			opacity: 0,
 			x: -20,
 		});
 
 		gsap.from(element2, 1.5, {
 			delay: 1.5,
-			ease: 'power3.out',
+			ease: "power3.out",
 			x: -20,
 			opacity: 0,
 		});
 
 		gsap.from(element3, 1.5, {
 			delay: 1.5,
-			ease: 'Bounce.easeOut',
+			ease: "Bounce.easeOut",
 			y: 50,
 			opacity: 0,
 		});
 
 		gsap.from(element4, 1.5, {
 			delay: 1.5,
-			ease: 'power3.out',
+			ease: "power3.out",
 			x: -20,
 			opacity: 0,
 		});
 
 		gsap.from(element5, 1.5, {
 			delay: 1.5,
-			ease: 'power3.out',
+			ease: "power3.out",
 			x: -20,
 			opacity: 0,
 		});
@@ -81,10 +81,10 @@ const About = () => {
 							CMS.
 						</p>
 						<p ref={ref5} className="about-p">
-							You can find my resume{' '}
+							You can find my resume{" "}
 							<a
 								className="send-email-btn"
-								href="https://drive.google.com/file/d/14VTd7NUAnhWmsCHE6VDw2hWHMGXezUCM/view?usp=sharing"
+								href="https://drive.google.com/file/d/1UZLRKGxsXNXQ47SSu407VEdoo_yu5CFl/view?usp=sharing"
 								target="_blank"
 								rel="noreferrer"
 							>
