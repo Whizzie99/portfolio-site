@@ -84,7 +84,7 @@ const About = () => {
 							You can find my resume{" "}
 							<a
 								className="send-email-btn"
-								href="https://drive.google.com/file/d/1UZLRKGxsXNXQ47SSu407VEdoo_yu5CFl/view?usp=sharing"
+								href="https://drive.google.com/file/d/1UZLRKGxsXNXQ47SSu407VEdoo_yu5CFl/view"
 								target="_blank"
 								rel="noreferrer"
 							>
