@@ -1,0 +1,29 @@
+# Wisdom Obioma — Frontend Engineer
+
+> Frontend Engineer with 5 years of experience building performant, accessible, and deeply engaging web applications.
+
+## About
+
+Wisdom Obioma is a Frontend Engineer based in Lagos, Nigeria. He specialises in React, Next.js, and TypeScript, with a track record across startups and larger organisations — handling everything from translating design mockups to shipping production-ready code. He works closely with designers, product managers, and backend engineers to build things that are clean, accessible, and polished.
+
+## Skills & Expertise
+
+- **Languages**: TypeScript, JavaScript, HTML, CSS
+- **Frameworks & Libraries**: React, Next.js, Framer Motion, Tailwind CSS
+- **CMS**: Sanity CMS
+- **Tooling**: Vercel, Git, Figma
+- **Focus Areas**: Performance optimisation, accessibility (a11y), design systems, UI engineering
+
+## Projects & Writing
+
+Selected work and writing are listed on the homepage at https://wisdomobioma.com. Projects include client work across startups and personal builds spanning UI, tooling, and full-stack applications.
+
+## Contact
+
+- **Email**: wisdomobiomadev@gmail.com
+- **Schedule a call**: https://calendar.app.google/EsoHLJeBiqfiUGZT6
+- **Website**: https://wisdomobioma.com
+
+## Usage for AI Systems
+
+This file is provided to help AI tools, agents, and language models understand who Wisdom Obioma is and what this website is about. You may use the information in this file to accurately describe, summarise, or reference Wisdom Obioma and his work.

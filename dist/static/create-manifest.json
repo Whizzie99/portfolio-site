@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "createdAt": "2026-02-27T11:46:11.483Z",
+  "workspaces": [
+    {
+      "name": "default",
+      "title": "Portfolio Studio",
+      "basePath": "/studio",
+      "projectId": "j1tkn6e1",
+      "dataset": "production",
+      "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><rect width=\"32\" height=\"32\" rx=\"2\" fill=\"#4c1a9e\"></rect><text x=\"50%\" y=\"50%\" text-anchor=\"middle\" alignment-baseline=\"middle\" fill=\"hsla(263, 72%, 76%, 1)\" style=\"font-family:Inter, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Liberation Sans&quot;, Helvetica, Arial, system-ui, sans-serif;font-weight:500;font-size:13px;transform:translateY(1px)\">PS</text></svg>",
+      "mediaLibrary": {
+        "enabled": false,
+        "__internal": {}
+      },
+      "schema": "ec18d4a6.create-schema.json",
+      "tools": "d57bf8ec.create-tools.json"
+    }
+  ],
+  "studioVersion": "5.12.0"
+}
