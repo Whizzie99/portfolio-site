@@ -8,6 +8,7 @@ import { Tools } from '@/components/sections/tools'
 import { Projects } from '@/components/sections/projects'
 import { Blog } from '@/components/sections/blog'
 import { Contact } from '@/components/sections/contact'
+import { Footer } from '@/components/common/footer'
 
 import type {
   HeroQueryResult,
@@ -28,7 +29,7 @@ interface HomeFragmentProps {
 export function HomeFragment({ hero, about, tools, projects, writings }: HomeFragmentProps) {
   return (
     <SmoothScrollProvider>
-      <main className="min-h-screen bg-linear-to-br from-[#E2E8F0] via-[#F8FAFC] to-[#CBD5E1] dark:bg-none dark:bg-[#0a0a0a] selection:bg-neutral-900 selection:text-[#F3F3F3] dark:selection:bg-[#F3F3F3] dark:selection:text-[#111111]">
+      <main className="min-h-screen overflow-x-hidden bg-linear-to-br from-[#E2E8F0] via-[#F8FAFC] to-[#CBD5E1] dark:bg-none dark:bg-[#0a0a0a] selection:bg-neutral-900 selection:text-[#F3F3F3] dark:selection:bg-[#F3F3F3] dark:selection:text-[#111111]">
         <Header />
         <div className="w-full px-6 md:px-12 lg:px-24 pt-24 md:pt-32">
           <Hero data={hero} />
@@ -38,6 +39,7 @@ export function HomeFragment({ hero, about, tools, projects, writings }: HomeFra
           {/* <Blog data={writings} /> */}
           <Contact />
         </div>
+        <Footer />
       </main>
     </SmoothScrollProvider>
   )
