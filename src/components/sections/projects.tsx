@@ -67,6 +67,7 @@ export function Projects({ data }: ProjectsProps) {
               transition={{ duration: 0.6, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] }}
               key={project._id}
               href={href}
+              newTab={true}
               className="group flex flex-col md:flex-row md:items-center justify-between py-10 border-b border-neutral-200 dark:border-neutral-800 first:border-t-0 last:border-b-0 transition-colors -mx-6 px-6 sm:mx-0 sm:px-0"
               innerClassName="flex flex-col md:flex-row md:items-center justify-between"
             >

@@ -5,6 +5,7 @@ import { ReactNode, MouseEvent } from "react";
 
 interface SpotlightItemProps extends Omit<HTMLMotionProps<"a">, "children"> {
   href: string;
+  newTab?: boolean;
   innerClassName?: string;
   lightColorStops?: string;
   darkColorStops?: string;
@@ -15,6 +16,7 @@ export function SpotlightItem({
   children,
   className = "",
   innerClassName = "",
+  newTab = false,
   lightColorStops = "rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.2), rgba(255, 255, 255, 0) 100%",
   darkColorStops = "rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01), rgba(10, 10, 10, 0) 100%",
   ...props
@@ -32,6 +34,7 @@ export function SpotlightItem({
     <motion.a
       onMouseMove={handleMouseMove}
       className={`relative group overflow-hidden block ${className}`}
+      {...(newTab ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       {...props}
     >
       <motion.div
