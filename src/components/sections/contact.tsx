@@ -28,7 +28,7 @@ export function Contact() {
             Whether you have a question or just want to say hi, feel free to reach out.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-10">
+          <div className="flex flex-row items-start gap-4 mt-10">
             <Link
               href="mailto:wisdomobiomadev@gmail.com"
               className="inline-flex items-center gap-2 text-sm text-neutral-900 dark:text-neutral-50 border border-neutral-200 dark:border-neutral-800 px-5 py-2.5 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"

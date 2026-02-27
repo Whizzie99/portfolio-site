@@ -32,13 +32,13 @@ export function Hero({ data }: HeroProps) {
       className="relative group min-h-[60vh] sm:min-h-[85vh] flex flex-col justify-end pb-8 sm:pb-12 w-full"
     >
       <motion.div
-        className="pointer-events-none absolute inset-x-0 -top-32 -bottom-10 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 hidden dark:block"
+        className="pointer-events-none absolute -left-[600px] -right-[600px] -top-32 -bottom-10 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 hidden dark:block"
         style={{
           background: useMotionTemplate`radial-gradient(600px circle at ${mouseX}px ${mouseY}px, rgba(139, 92, 246, 0.08), rgba(236, 72, 153, 0.05), rgba(6, 182, 212, 0.03), transparent 70%)`,
         }}
       />
       <motion.div
-        className="pointer-events-none absolute inset-x-0 -top-32 -bottom-10 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 dark:hidden"
+        className="pointer-events-none absolute -left-[600px] -right-[600px] -top-32 -bottom-10 z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-1000 dark:hidden"
         style={{
           background: useMotionTemplate`radial-gradient(600px circle at ${mouseX}px ${mouseY}px, rgba(139, 92, 246, 0.12), rgba(236, 72, 153, 0.08), rgba(6, 182, 212, 0.05), transparent 70%)`,
         }}
@@ -58,7 +58,7 @@ export function Hero({ data }: HeroProps) {
           </motion.h1>
         </div>
 
-        <div className="flex flex-col md:flex-row md:items-end w-full overflow-hidden pb-2 pt-4 pointer-events-auto">
+        <div className="flex flex-col md:flex-row md:items-end w-full overflow-hidden pb-[5vw] pt-4 pointer-events-auto">
           <motion.h1
             initial={{ y: '100%' }}
             animate={isComplete ? { y: 0 } : { y: '100%' }}
