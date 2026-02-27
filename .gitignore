@@ -44,3 +44,6 @@ next-env.d.ts
 .agent
 .agents
 .claude
+
+# local task tracking
+/tasks
