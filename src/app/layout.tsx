@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = "https://wisdomobioma.com";
+const BASE_URL = "https://wisdomobioma.netlify.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
